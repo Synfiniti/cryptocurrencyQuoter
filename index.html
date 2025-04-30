@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cotizador</title>
+  </head>
+  <body>
+    <div id="container">
+      <img src="img/crypto.svg" alt="" />
+      <div id="coin-container">
+        <form id="coin-form">
+          <div class="coin-input-container">
+            <label for="coin">ELIGE TU MONEDA</label>
+            <select class="coin-input" id="coin">
+              <option selected disabled value="">Selecciona una moneda</option>
+              <option value="USD">Dólar</option>
+              <option value="EUR">Euros</option>
+              <option value="ARS">Pesos Argentinos</option>
+              <option value="VES">Bolivares</option>
+            </select>
+          </div>
+          <div class="coin-input-container">
+            <label for="crypto">ELIGE TU CRIPTOMONEDA</label>
+            <select class="coin-input" id="crypto">
+              <option selected disabled value="">
+                Selecciona una criptomoneda
+              </option>
+              <option value="BTC">Bitcoin</option>
+              <option value="ETH">Ethereum</option>
+              <option value="AXS">AXS</option>
+              <option value="BNB">Binance Coin</option>
+            </select>
+          </div>
+          <div class="coin-input-container">
+            <label for="amount">MONTO A COMPRAR</label>
+            <input
+              type="text"
+              class="coin-input"
+              id="amount"
+              placeholder="Monto"
+            />
+          </div>
+          <button type="submit" id="form-btn">COTIZAR</button>
+        </form>
+        <div id="coin-info"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
