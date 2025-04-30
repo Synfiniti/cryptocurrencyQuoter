@@ -1,6 +1,6 @@
 # Cryptocurrency Quoter
 
-A web application that allows you to check the current price of different cryptocurrencies and perform conversions based on fiat currencies such as US dollars (USD), euros (EUR), Argentine pesos (ARS), and bolivars (VES).
+A web application that allows you to check the current price of different cryptocurrencies and perform conversions based on fiat currencies such as US dollars (USD), euros (EUR), Pesos Argentinos (ARS), and bolivares (VES).
 
 ## 🚨 WEB LIVE
 
