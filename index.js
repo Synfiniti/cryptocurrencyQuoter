@@ -50,7 +50,7 @@ form.addEventListener("submit", async (e) => {
                 priceLow
               )}</span>
             </p>
-            <p class="info">Variacion 24H: <span class="price">{variation}%</span></p>
+            <p class="info">Variacion 24H: <span class="price">${variation}%</span></p>
             <p class="info">
               Puede comprar: <span class="price">${result.toFixed(
                 4
