@@ -2,6 +2,10 @@
 
 A web application that allows you to check the current price of different cryptocurrencies and perform conversions based on fiat currencies such as US dollars (USD), euros (EUR), Argentine pesos (ARS), and bolivars (VES).
 
+## 🚨 WEB LIVE
+
+https://synfiniti.github.io/cryptocurrencyQuoter/
+
 ## 🧩 Features
 
 - Check the **current price** of a cryptocurrency in a selected fiat currency.
