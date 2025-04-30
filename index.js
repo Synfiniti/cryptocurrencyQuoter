@@ -37,20 +37,20 @@ form.addEventListener("submit", async (e) => {
       const result = Number(amountValue) / price;
 
       coinInfo.innerHTML = `
-            <p class="info">El precio es: <span class="price">$${Math.round(
+            <p class="info">El precio es: <span class="price">${Math.round(
               price
             )}</span></p>
             <p class="info">
-              El precio más alto es: <span class="price">$${Math.round(
+              El precio más alto es: <span class="price">${Math.round(
                 priceHigh
               )}</span>
             </p>
             <p class="info">
-              El precio más bajo es: <span class="price">$${Math.round(
+              El precio más bajo es: <span class="price">${Math.round(
                 priceLow
               )}</span>
             </p>
-            <p class="info">Variacion 24H: <span class="price">${variation}%</span></p>
+            <p class="info">Variacion 24H: <span class="price">{variation}%</span></p>
             <p class="info">
               Puede comprar: <span class="price">${result.toFixed(
                 4
